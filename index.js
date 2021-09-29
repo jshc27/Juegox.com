@@ -14,11 +14,11 @@ var resultado = function(user, machine) {
         } else if ( user === opcion3 && machine === opcion2) {
             console.log('El usuario GAN0 con ' + opcion3);
         } else {
-            console.log('Gano la machine');
+            console.log('Gano la maquina');
         }
     } else if (user === machine) {
         console.log('Es un empate');
     }
 }
 
-resultado(opcion3, opcion2);
+resultado(opcion2, opcion2);
